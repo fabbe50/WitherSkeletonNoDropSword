@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "wsnds",
+  "version": "${version}",
+
+  "name": "Wither Skeleton No Drop Sword",
+  "description": "Makes the pesky stone swords go away",
+  "authors": [],
+  "contact": {},
+
+  "license": "GNU LGPL 3.0",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.fabbe50.witherskeletonnds.fabric.WitherSkeletonNoDropSwordFabric"
+    ]
+  },
+  "mixins": [
+    "wsnds.mixins.json",
+    "wsnds-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">=1.20.1"
+  }
+}
